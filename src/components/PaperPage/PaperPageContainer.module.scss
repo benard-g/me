@@ -1,0 +1,31 @@
+.PaperPageContainer {
+  padding: 0.5cm;
+
+  * {
+    margin: 0.5cm auto;
+  }
+
+  :first-child {
+    margin-top: 0;
+  }
+
+  :last-child {
+    margin-bottom: 0;
+  }
+}
+
+@media print {
+  .PaperPageContainer {
+    padding: 0;
+
+    * {
+      display: block;
+      page-break-after: always;
+      margin: 0;
+    }
+
+    :last-child {
+      page-break-after: avoid;
+    }
+  }
+}
