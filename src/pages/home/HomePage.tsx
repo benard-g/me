@@ -1,5 +1,6 @@
 import React from 'react';
 import { Helmet } from 'react-helmet';
+import { Link } from 'react-router-dom';
 
 import styles from './HomePage.module.scss';
 
@@ -15,9 +16,9 @@ const HomePage: React.FC = () => {
         <p className={styles.presentationText}>
           This website is under construction, not much to see right now...
         </p>
-        <a href="/curriculum-vitae" className={styles.button}>
+        <Link to="/curriculum-vitae" className={styles.button}>
           Have a look at my resume
-        </a>
+        </Link>
       </div>
     </>
   );
