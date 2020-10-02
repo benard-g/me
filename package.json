@@ -11,12 +11,17 @@
     "test:lint": "eslint 'src/**/*.{js,jsx,ts,tsx}'",
     "test:jest": "react-scripts test",
     "test": "yarn build && yarn test:lint && yarn test:jest",
+    "i18n:update": "yarn i18next 'src/**/*.{js,jsx,ts,tsx}'",
     "eject": "react-scripts eject"
   },
   "dependencies": {
+    "i18next": "^19.7.0",
+    "i18next-browser-languagedetector": "^6.0.1",
+    "i18next-http-backend": "^1.0.21",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
-    "react-helmet": "^6.1.0",
+    "react-helmet-async": "^1.0.7",
+    "react-i18next": "^11.7.3",
     "react-router-dom": "^5.2.0",
     "react-scripts": "3.4.3"
   },
@@ -28,7 +33,6 @@
     "@types/node": "^12.0.0",
     "@types/react": "^16.9.0",
     "@types/react-dom": "^16.9.0",
-    "@types/react-helmet": "^6.1.0",
     "@types/react-router-dom": "^5.1.5",
     "@typescript-eslint/eslint-plugin": "^4.3.0",
     "@typescript-eslint/parser": "^4.3.0",
@@ -36,6 +40,7 @@
     "eslint-plugin-prettier": "^3.1.4",
     "eslint-plugin-react": "^7.21.2",
     "eslint-plugin-simple-import-sort": "^5.0.3",
+    "i18next-parser": "^3.3.0",
     "node-sass": "^4.14.1",
     "prettier": "^2.1.2",
     "typescript": "~3.7.2"
