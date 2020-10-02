@@ -1,11 +1,16 @@
 import React from 'react';
-import { BrowserRouter, Redirect, Route, Switch } from 'react-router-dom';
+import {
+  HashRouter as ReactRouter,
+  Redirect,
+  Route,
+  Switch,
+} from 'react-router-dom';
 
 import CvPage from '../pages/cv/CvPage';
 import HomePage from '../pages/home/HomePage';
 
 const Router: React.FC = () => (
-  <BrowserRouter>
+  <ReactRouter>
     <Switch>
       <Route exact path="/">
         <HomePage />
@@ -19,7 +24,7 @@ const Router: React.FC = () => (
         <Redirect to="/" />
       </Route>
     </Switch>
-  </BrowserRouter>
+  </ReactRouter>
 );
 
 export default Router;
