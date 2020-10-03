@@ -19,6 +19,28 @@
       "title": "Détails"
     },
     "education": {
+      "epitech": {
+        "list": [
+          "Informatique",
+          "GPA bachelor: 3.46"
+        ],
+        "name": "Epitech"
+      },
+      "highschool": {
+        "list": [
+          "Baccalauréat scientifique",
+          "Mention très bien"
+        ],
+        "name": "Lycée Chevalier d'Eon"
+      },
+      "laval": {
+        "list": [
+          "Informatique",
+          "Machine-Learning",
+          "Data-Science"
+        ],
+        "name": "Université Laval (Québec)"
+      },
       "title": "Education"
     },
     "experience": {

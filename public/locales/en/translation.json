@@ -19,6 +19,28 @@
       "title": "Details"
     },
     "education": {
+      "epitech": {
+        "list": [
+          "Computer Science",
+          "Bachelor GPA: 3.46"
+        ],
+        "name": "Epitech"
+      },
+      "highschool": {
+        "list": [
+          "Science",
+          "Graduated with honors"
+        ],
+        "name": "Highschool"
+      },
+      "laval": {
+        "list": [
+          "Computer Science",
+          "Machine-Learning",
+          "Data-Science"
+        ],
+        "name": "Laval University (Quebec)"
+      },
       "title": "Education"
     },
     "experience": {

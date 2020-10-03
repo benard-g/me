@@ -48,7 +48,7 @@ const ExperienceBloc: React.FC<Props> = (props) => {
     experience.dates.end || now,
   );
 
-  let technologiesBloc: React.ReactNode | undefined = undefined;
+  let technologiesBloc: React.ReactNode | undefined;
   if (experience.technologies && experience.technologies.length > 0) {
     technologiesBloc = (
       <div className={styles.technologies}>
@@ -61,7 +61,7 @@ const ExperienceBloc: React.FC<Props> = (props) => {
     );
   }
 
-  let listBloc: React.ReactNode | undefined = undefined;
+  let listBloc: React.ReactNode | undefined;
   if (experience.list && experience.list.length > 0) {
     listBloc = (
       <div className={styles.realizations}>

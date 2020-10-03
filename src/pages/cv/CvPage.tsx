@@ -9,6 +9,7 @@ import imgLinkedin from '../../assets/iconLinkedin.png';
 import imgLocation from '../../assets/iconLocation.png';
 import imgPhone from '../../assets/iconPhone.png';
 import PaperPageContainer from '../../components/PaperPage/PaperPageContainer';
+import EducationBloc from './components/EducationBloc/EducationBloc';
 import ExperienceBloc from './components/ExperienceBloc/ExperienceBloc';
 import styles from './CvPage.module.scss';
 
@@ -192,7 +193,39 @@ const Page1: React.FC = () => {
 
         <div className={styles.section}>
           <h2>{t('cv.education.title')}</h2>
-          <p>TODO</p>
+
+          <EducationBloc
+            school={{
+              name: t('cv.education.epitech.name'),
+              list: t('cv.education.epitech.list'),
+              dates: {
+                startYear: 2015,
+                endYear: 2020,
+              },
+            }}
+          />
+
+          <EducationBloc
+            school={{
+              name: t('cv.education.laval.name'),
+              list: t('cv.education.laval.list'),
+              dates: {
+                startYear: 2018,
+                endYear: 2019,
+              },
+            }}
+          />
+
+          <EducationBloc
+            school={{
+              name: t('cv.education.highschool.name'),
+              list: t('cv.education.highschool.list'),
+              dates: {
+                startYear: 2012,
+                endYear: 2015,
+              },
+            }}
+          />
         </div>
 
         <div className={styles.section}>
