@@ -9,8 +9,10 @@ export async function initI18n(): Promise<void> {
     .use(LanguageDetector)
     .use(initReactI18next)
     .init({
+      whitelist: ['en', 'fr'],
       fallbackLng: 'en',
       debug: process.env.NODE_ENV === 'development',
       react: { wait: true },
+      returnObjects: true,
     });
 }

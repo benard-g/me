@@ -1,12 +1,22 @@
 import React, { useEffect, useState } from 'react';
-import { HelmetProvider } from 'react-helmet-async';
+import { Helmet, HelmetProvider } from 'react-helmet-async';
+import { useTranslation } from 'react-i18next';
 
+import Header from '../components/Header/Header';
 import styles from './App.module.scss';
 import { initI18n } from './i18next';
 import Router from './Router';
 
 const AppReady: React.FC = () => {
-  return <Router />;
+  const { i18n } = useTranslation();
+
+  return (
+    <>
+      <Helmet htmlAttributes={{ lang: i18n.language }} />
+      <Header />
+      <Router />
+    </>
+  );
 };
 
 const AppNotReady: React.FC = () => {
