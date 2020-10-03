@@ -1,15 +1,15 @@
 .PaperPageContainer {
   padding: 0.5cm;
 
-  * {
+  & > * {
     margin: 0.5cm auto;
   }
 
-  :first-child {
+  &:first-child {
     margin-top: 0;
   }
 
-  :last-child {
+  &:last-child {
     margin-bottom: 0;
   }
 }
@@ -17,14 +17,15 @@
 @media print {
   .PaperPageContainer {
     padding: 0;
+    background-color: white;
 
-    * {
+    & > * {
       display: block;
       page-break-after: always;
       margin: 0;
     }
 
-    :last-child {
+    &:last-child {
       page-break-after: avoid;
     }
   }
