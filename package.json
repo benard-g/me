@@ -10,7 +10,7 @@
     "build": "react-scripts build",
     "test:lint": "eslint 'src/**/*.{js,jsx,ts,tsx}'",
     "test:jest": "react-scripts test",
-    "test": "yarn build && yarn test:lint && yarn test:jest",
+    "test": "yarn build && yarn test:lint && env CI=true yarn test:jest",
     "i18n:update": "yarn i18next 'src/**/*.{js,jsx,ts,tsx}'",
     "eject": "react-scripts eject"
   },
