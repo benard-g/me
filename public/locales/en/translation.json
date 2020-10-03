@@ -106,6 +106,14 @@
       "title": "About me"
     },
     "languages": {
+      "en": {
+        "level": "Professional competence",
+        "name": "English"
+      },
+      "fr": {
+        "level": "Mother tongue",
+        "name": "French"
+      },
       "title": "Languages"
     },
     "location": "Location",

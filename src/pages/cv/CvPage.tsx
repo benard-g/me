@@ -11,6 +11,7 @@ import imgPhone from '../../assets/iconPhone.png';
 import PaperPageContainer from '../../components/PaperPage/PaperPageContainer';
 import EducationBloc from './components/EducationBloc/EducationBloc';
 import ExperienceBloc from './components/ExperienceBloc/ExperienceBloc';
+import LanguageBloc from './components/LanguageBloc/LanguageBloc';
 import styles from './CvPage.module.scss';
 
 function getAge(): number {
@@ -230,7 +231,16 @@ const Page1: React.FC = () => {
 
         <div className={styles.section}>
           <h2>{t('cv.languages.title')}</h2>
-          <p>TODO</p>
+
+          <LanguageBloc
+            lang={t('cv.languages.fr.name')}
+            level={t('cv.languages.fr.level')}
+          />
+
+          <LanguageBloc
+            lang={t('cv.languages.en.name')}
+            level={t('cv.languages.en.level')}
+          />
         </div>
 
         <div className={styles.section}>

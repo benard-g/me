@@ -106,6 +106,14 @@
       "title": "A propos de moi"
     },
     "languages": {
+      "en": {
+        "level": "Compétence professionnelle",
+        "name": "Anglais"
+      },
+      "fr": {
+        "level": "Langue natale",
+        "name": "Français"
+      },
       "title": "Langues"
     },
     "location": "Lieu",
