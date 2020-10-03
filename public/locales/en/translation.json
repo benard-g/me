@@ -1,4 +1,97 @@
 {
+  "cv": {
+    "dates": {
+      "date": "Dates",
+      "month": "month",
+      "month_plural": "months",
+      "now": "now",
+      "year": "year",
+      "year_plural": "years"
+    },
+    "details": {
+      "age": "age",
+      "ageValue": "{{age}} years old",
+      "email": "email",
+      "github": "Github",
+      "linkedin": "Linkedin",
+      "location": "Location",
+      "phone": "Phone number",
+      "title": "Details"
+    },
+    "education": {
+      "title": "Education"
+    },
+    "experience": {
+      "advitam": {
+        "contract": "internship",
+        "list": [
+          "Implementation of the new design of the showcase site by taking into account the SEO criteria.",
+          "Involvement in the creation of the online estimation tool.",
+          "Development of new functionalities in the back-end and back-office."
+        ],
+        "title": "Full-stack Developer"
+      },
+      "astek": {
+        "contract": "part-time",
+        "list": [
+          "Supervise the school activities and projects of the 1st and 2nd year students.",
+          "Tracking the projects' progress, code review, technical support."
+        ],
+        "title": "Technical assistant"
+      },
+      "freelance": {
+        "contract": "freelance",
+        "list": [
+          "Development of a \"poc\" validating the identity of a user through a video stream.",
+          "Creation of a web application (frontend / backend) performing this identity validation."
+        ],
+        "title": "Full-stack Developer"
+      },
+      "kapten": {
+        "contract": "full-time",
+        "list": [
+          "Maintenance and development of new functionalities within an AGILE team and working on a microservices architecture.",
+          "Involvement in the development of the migration of thousands of Kapten's drivers to Free Now.",
+          "Development of an real-time alerting system linked to Slack and allowing our operators to detect undesired behaviors on the platform."
+        ],
+        "title": "Full-stack developer"
+      },
+      "polyconseil": {
+        "contract": "intership",
+        "list": [
+          "Maintenance and development of new functionalities within an AGILE team on 2 projects."
+        ],
+        "title": "Full-stack developer"
+      },
+      "shift": {
+        "contract": "internship",
+        "list": [
+          "Development of an internal solution allowing to reduce the duration of the automated tests."
+        ],
+        "title": "\"Core\" developer"
+      },
+      "title": "Experiences"
+    },
+    "head": {
+      "description": "The resume of Guillaume Benard.",
+      "title": "Resume - Guillaume Benard"
+    },
+    "hobbies": {
+      "title": "Hobbies"
+    },
+    "introduction": {
+      "text": "TODO",
+      "title": "About me"
+    },
+    "languages": {
+      "title": "Languages"
+    },
+    "location": "Location",
+    "title": {
+      "job": "Full-stack web Developer",
+      "name": "Guillaume Benard"
+    }
+  },
   "home": {
     "content": {
       "button": "Have a look at my resume",

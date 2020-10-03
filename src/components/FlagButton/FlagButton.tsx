@@ -1,8 +1,8 @@
 import React from 'react';
 
+import imgEn from '../../assets/iconFlagEn.png';
+import imgFr from '../../assets/iconFlagFr.png';
 import styles from './FlagButton.module.scss';
-import imgEn from './imgEn.png';
-import imgFr from './imgFr.png';
 
 const COUNTRIES = {
   EN: imgEn,
