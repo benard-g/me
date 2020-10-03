@@ -1,0 +1,16 @@
+.Header {
+  display: flex;
+  justify-content: center;
+
+  padding-top: 10px;
+
+  @media print {
+    display: none;
+  }
+}
+
+.flagsContainer {
+  width: 70px;
+  display: flex;
+  justify-content: space-between;
+}
