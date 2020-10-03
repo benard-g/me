@@ -1,4 +1,127 @@
 {
+  "cv": {
+    "dates": {
+      "date": "Dates",
+      "month": "mois",
+      "month_plural": "mois",
+      "now": "aujourd'hui",
+      "year": "an",
+      "year_plural": "ans"
+    },
+    "details": {
+      "age": "age",
+      "ageValue": "{{age}} ans",
+      "email": "email",
+      "github": "Github",
+      "linkedin": "Linkedin",
+      "location": "lieu",
+      "phone": "téléphone",
+      "title": "Détails"
+    },
+    "education": {
+      "epitech": {
+        "list": [
+          "Informatique",
+          "GPA bachelor: 3.46"
+        ],
+        "name": "Epitech"
+      },
+      "highschool": {
+        "list": [
+          "Baccalauréat scientifique",
+          "Mention très bien"
+        ],
+        "name": "Lycée Chevalier d'Eon"
+      },
+      "laval": {
+        "list": [
+          "Informatique",
+          "Machine-Learning",
+          "Data-Science"
+        ],
+        "name": "Université Laval (Québec)"
+      },
+      "title": "Education"
+    },
+    "experience": {
+      "advitam": {
+        "contract": "stage",
+        "list": [
+          "Implémentation du nouveau design du site vitrine avec prise en compte des critères de SEO.",
+          "Participation à la création de l'outil de devis en ligne.",
+          "Ajout de fonctionnalités au sein du back-end et du back-office."
+        ],
+        "title": "Développeur Full-stack"
+      },
+      "astek": {
+        "contract": "temps partiel",
+        "list": [
+          "Encadrement d'étudiants de 1ère et 2ème année sur leur projets et activités scolaires.",
+          "Suivi de projet, revue de code, soutien technique."
+        ],
+        "title": "Assistant technique (Astek / Koala)"
+      },
+      "freelance": {
+        "contract": "freelance",
+        "list": [
+          "Réalisation d'un \"poc\" permettant de valider l'identité d'un utilisateur via un flux vidéo.",
+          "Création d'une application web (frontend / backend) réalisant cette validation d'identité."
+        ],
+        "title": "Développeur Full-stack"
+      },
+      "kapten": {
+        "contract": "CDI",
+        "list": [
+          "Maintenance et développement de nouvelles fonctionnalités au sein d'une équipe AGILE, sur une architecture microservices.",
+          "Participation au développement de la migration de plusieurs milliers de chauffeurs Kapten vers Free Now.",
+          "Développement d'un système d'alerte en temps réel lié à Slack pour permettre aux opérateurs de détecter les comportements non désirés sur la plateforme."
+        ],
+        "title": "Développeur Full-stack"
+      },
+      "polyconseil": {
+        "contract": "stage",
+        "list": [
+          "Maintenance et développement de nouvelles fonctionnalités au sein d'une équipe AGILE sur 2 projets."
+        ],
+        "title": "Développeur Full-stack"
+      },
+      "shift": {
+        "contract": "stage",
+        "list": [
+          "Développement d'une solution interne permettant d'améliorer la durée d'exécution des tests automatisés."
+        ],
+        "title": "Développeur \"Core\""
+      },
+      "title": "Expériences professionnelles"
+    },
+    "head": {
+      "description": "Découvrez mon CV en ligne.",
+      "title": "CV - Guillaume Bénard"
+    },
+    "hobbies": {
+      "title": "Centres d'intérêt"
+    },
+    "introduction": {
+      "text": "TODO",
+      "title": "A propos de moi"
+    },
+    "languages": {
+      "en": {
+        "level": "Compétence professionnelle",
+        "name": "Anglais"
+      },
+      "fr": {
+        "level": "Langue natale",
+        "name": "Français"
+      },
+      "title": "Langues"
+    },
+    "location": "Lieu",
+    "title": {
+      "job": "Développeur web Full-stack",
+      "name": "Guillaume Bénard"
+    }
+  },
   "home": {
     "content": {
       "button": "Jetez un oeil à mon CV",
