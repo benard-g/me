@@ -31,7 +31,7 @@
           "Science",
           "Graduated with honors"
         ],
-        "name": "Highschool"
+        "name": "High school"
       },
       "laval": {
         "list": [
@@ -51,7 +51,7 @@
           "Involvement in the creation of the online estimation tool.",
           "Development of new functionalities in the back-end and back-office."
         ],
-        "title": "Full-stack Developer"
+        "title": "Full-stack developer"
       },
       "astek": {
         "contract": "part-time",
@@ -65,21 +65,21 @@
         "contract": "freelance",
         "list": [
           "Development of a \"poc\" validating the identity of a user through a video stream.",
-          "Creation of a web application (frontend / backend) performing this identity validation."
+          "Creation of a web application (front-end / back-end) performing this identity validation."
         ],
-        "title": "Full-stack Developer"
+        "title": "Full-stack developer"
       },
       "kapten": {
         "contract": "full-time",
         "list": [
-          "Maintenance and development of new functionalities within an AGILE team and working on a microservices architecture.",
+          "Maintenance and development of new functionalities within an AGILE team and working on a micro-services architecture.",
           "Involvement in the development of the migration of thousands of Kapten's drivers to Free Now.",
-          "Development of an real-time alerting system linked to Slack and allowing our operators to detect undesired behaviors on the platform."
+          "Development of a real-time alerting system linked to Slack and allowing our operators to detect undesired behaviors on the platform."
         ],
         "title": "Full-stack developer"
       },
       "polyconseil": {
-        "contract": "intership",
+        "contract": "internship",
         "list": [
           "Maintenance and development of new functionalities within an AGILE team on 2 projects."
         ],
@@ -99,6 +99,29 @@
       "title": "Resume - Guillaume Benard"
     },
     "hobbies": {
+      "culture": {
+        "list": [
+          "Cinema / Series",
+          "Reading",
+          "Video-games"
+        ],
+        "name": "Culture"
+      },
+      "sport": {
+        "list": [
+          "Workout",
+          "Badminton",
+          "Volley"
+        ],
+        "name": "Sport"
+      },
+      "tech": {
+        "list": [
+          "Follow new innovations",
+          "Develop new skills"
+        ],
+        "name": "Tech"
+      },
       "title": "Hobbies"
     },
     "introduction": {

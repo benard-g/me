@@ -31,7 +31,7 @@
           "Baccalauréat scientifique",
           "Mention très bien"
         ],
-        "name": "Lycée Chevalier d'Eon"
+        "name": "Lycée Chevalier d'Éon"
       },
       "laval": {
         "list": [
@@ -56,7 +56,7 @@
       "astek": {
         "contract": "temps partiel",
         "list": [
-          "Encadrement d'étudiants de 1ère et 2ème année sur leur projets et activités scolaires.",
+          "Encadrement d'étudiants de 1re et 2ème années sur leurs projets et activités scolaires.",
           "Suivi de projet, revue de code, soutien technique."
         ],
         "title": "Assistant technique (Astek / Koala)"
@@ -65,14 +65,14 @@
         "contract": "freelance",
         "list": [
           "Réalisation d'un \"poc\" permettant de valider l'identité d'un utilisateur via un flux vidéo.",
-          "Création d'une application web (frontend / backend) réalisant cette validation d'identité."
+          "Création d'une application web (front-end / back-end) réalisant cette validation d'identité."
         ],
         "title": "Développeur Full-stack"
       },
       "kapten": {
         "contract": "CDI",
         "list": [
-          "Maintenance et développement de nouvelles fonctionnalités au sein d'une équipe AGILE, sur une architecture microservices.",
+          "Maintenance et développement de nouvelles fonctionnalités au sein d'une équipe AGILE, sur une architecture micro-services.",
           "Participation au développement de la migration de plusieurs milliers de chauffeurs Kapten vers Free Now.",
           "Développement d'un système d'alerte en temps réel lié à Slack pour permettre aux opérateurs de détecter les comportements non désirés sur la plateforme."
         ],
@@ -99,11 +99,34 @@
       "title": "CV - Guillaume Bénard"
     },
     "hobbies": {
+      "culture": {
+        "list": [
+          "Cinéma / Séries",
+          "Lecture",
+          "Jeux-vidéo"
+        ],
+        "name": "Culture"
+      },
+      "sport": {
+        "list": [
+          "Musculation",
+          "Badminton",
+          "Volley"
+        ],
+        "name": "Sport"
+      },
+      "tech": {
+        "list": [
+          "Suivre les nouvelles innovations",
+          "Développer de nouvelles compétences"
+        ],
+        "name": "Tech"
+      },
       "title": "Centres d'intérêt"
     },
     "introduction": {
       "text": "TODO",
-      "title": "A propos de moi"
+      "title": "À propos de moi"
     },
     "languages": {
       "en": {
@@ -125,7 +148,7 @@
   "home": {
     "content": {
       "button": "Jetez un oeil à mon CV",
-      "text": "Ce site est actuellement en construction, pas grand chose à voir pour le moment..."
+      "text": "Ce site est actuellement en construction, pas grand-chose à voir pour le moment..."
     },
     "head": {
       "description": "Le site web personnel de Guillaume Bénard.",

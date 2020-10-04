@@ -1,7 +1,11 @@
 .App {
   min-height: 100vh;
-  background-color: #292d3e;
+
   color: white;
+  background-color: #292d3e;
+
   display: flex;
   flex-direction: column;
+
+  overflow-x: auto;
 }
