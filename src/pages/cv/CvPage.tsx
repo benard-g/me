@@ -37,7 +37,7 @@ const Page1: React.FC = () => {
 
         <div className={styles.section}>
           <h2>{t('cv.introduction.title')}</h2>
-          <p>{t('cv.introduction.text')}</p>
+          <p className={styles.introduction}>{t('cv.introduction.text')}</p>
         </div>
 
         <div className={styles.section}>
