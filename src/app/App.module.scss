@@ -8,4 +8,8 @@
   flex-direction: column;
 
   overflow-x: auto;
+
+  @media print {
+    background-color: white;
+  }
 }
