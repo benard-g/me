@@ -11,6 +11,7 @@ import imgPhone from '../../assets/iconPhone.png';
 import PaperPageContainer from '../../components/PaperPage/PaperPageContainer';
 import EducationBloc from './components/EducationBloc/EducationBloc';
 import ExperienceBloc from './components/ExperienceBloc/ExperienceBloc';
+import HobbyBloc from './components/HobbyBloc/HobbyBloc';
 import LanguageBloc from './components/LanguageBloc/LanguageBloc';
 import styles from './CvPage.module.scss';
 
@@ -245,7 +246,21 @@ const Page1: React.FC = () => {
 
         <div className={styles.section}>
           <h2>{t('cv.hobbies.title')}</h2>
-          <p>TODO</p>
+
+          <HobbyBloc
+            name={t('cv.hobbies.culture.name')}
+            list={t('cv.hobbies.culture.list')}
+          />
+
+          <HobbyBloc
+            name={t('cv.hobbies.tech.name')}
+            list={t('cv.hobbies.tech.list')}
+          />
+
+          <HobbyBloc
+            name={t('cv.hobbies.sport.name')}
+            list={t('cv.hobbies.sport.list')}
+          />
         </div>
       </div>
     </div>
