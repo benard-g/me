@@ -44,3 +44,14 @@ jobs:
           CI: true
       - name: 'FAIL'
         run: 'false'
+  CD:
+    name: 'Deployment on GitHub Pages'
+    steps:
+      - name: Clone the repository
+        uses: actions/checkout@v1
+      - name: Use Node 12.x
+        uses: actions/setup-node@v1
+        with:
+          node-version: 12.18.4
+      - name: hello
+        run: echo 'hello'
