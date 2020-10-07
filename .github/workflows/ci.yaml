@@ -18,3 +18,5 @@ jobs:
         run: yarn test
         env:
           CI: true
+      - name: Dispatch event
+        run: echo $GITHUB_REF
