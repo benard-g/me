@@ -12,12 +12,12 @@ jobs:
         uses: actions/setup-node@v1
         with:
           node-version: 12.18.4
-      - name: Install dependencies
-        run: yarn install
-      - name: Run automated tests
-        run: yarn test
-        env:
-          CI: true
+      # - name: Install dependencies
+      #   run: yarn install
+      # - name: Run automated tests
+      #   run: yarn test
+      #   env:
+      #     CI: true
       - name: FAIL
         run: 'false'
   CD:
