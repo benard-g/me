@@ -18,11 +18,13 @@ jobs:
         run: yarn test
         env:
           CI: true
+      - name: 'FAIL'
+        run: 'false'
 
   CD:
     name: 'Deploy to GitHub Pages'
     needs: CI
-    if: github.ref == 'refs/heads/ci_cd'
+    # if: github.ref == 'refs/heads/ci_cd'
     steps:
       - name: Clone the repository
         uses: actions/checkout@v1
