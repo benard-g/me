@@ -7,14 +7,14 @@ jobs:
     # needs: CI
     # if: github.ref == 'refs/heads/ci_cd'
     steps:
+      - name: Clone the repository
+        uses: actions/checkout@v1
+      - name: Use Node 12.x
+        uses: actions/setup-node@v1
+        with:
+          node-version: 12.18.4
       - name: 'step'
         run: echo 'deployment'
-      # - name: Clone the repository
-      #   uses: actions/checkout@v1
-      # - name: Use Node 12.x
-      #   uses: actions/setup-node@v1
-      #   with:
-      #     node-version: 12.18.4
       # - name: Install dependencies
       #   run: yarn install
       # - name: Build website
