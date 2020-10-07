@@ -19,4 +19,4 @@ jobs:
       #   env:
       #     CI: true
       - name: Dispatch event
-        run: echo $GITHUB_BRANCH
+        run: echo ${GITHUB_REF##*/}
