@@ -23,6 +23,7 @@ jobs:
   CD:
     name: Deployment on GitHub Pages
     runs-on: ubuntu-latest
+    needs: CI
     steps:
       - name: Clone the repository
         uses: actions/checkout@v1
