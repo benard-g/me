@@ -1,0 +1,45 @@
+name: CI_CD
+on: [push]
+
+jobs:
+  CI:
+    name: 'Automated tests'
+    runs-on: ubuntu-latest
+    steps:
+      - name: Clone the repository
+        uses: actions/checkout@v1
+      - name: Use Node 12.x
+        uses: actions/setup-node@v1
+        with:
+          node-version: 12.18.4
+      - name: Install dependencies
+        run: yarn install
+      - name: Run tests
+        run: yarn test
+        env:
+          CI: true
+
+  CD:
+    name: 'Deploy to GitHub Pages'
+    needs: CI
+    if: github.ref == 'refs/heads/ci_cd'
+    steps:
+      - name: Clone the repository
+        uses: actions/checkout@v1
+      - name: Use Node 12.x
+        uses: actions/setup-node@v1
+        with:
+          node-version: 12.18.4
+      - name:
+        run: echo YEAH
+      # - name: Install dependencies
+      #   run: yarn install
+      # - name: Build website
+      #   run: yarn build
+      # - name: Deploy website
+      #   uses: JamesIves/github-pages-deploy-action@3.6.2
+      #   with:
+      #     GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      #     BRANCH: live
+      #     FOLDER: build
+      #     CLEAN: true
