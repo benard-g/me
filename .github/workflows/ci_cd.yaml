@@ -24,7 +24,7 @@ jobs:
     name: Deployment on GitHub Pages
     runs-on: ubuntu-latest
     needs: CI
-    if: github.ref == 'refs/heads/ci_cd'
+    if: github.ref == 'refs/heads/master'
     steps:
       - name: Clone the repository
         uses: actions/checkout@v1
