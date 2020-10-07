@@ -2,7 +2,7 @@ name: CI_CD
 on: [push]
 
 jobs:
-  CD:
+  cccccc:
     name: 'Deploy to GitHub Pages'
     # needs: CI
     # if: github.ref == 'refs/heads/ci_cd'
