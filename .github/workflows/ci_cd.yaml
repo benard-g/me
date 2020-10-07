@@ -18,8 +18,8 @@ jobs:
       #   run: yarn test
       #   env:
       #     CI: true
-      - name: FAIL
-        run: 'false'
+      - name: cmd
+        run: 'true'
   CD:
     name: Deployment on GitHub Pages
     runs-on: ubuntu-latest
@@ -32,7 +32,7 @@ jobs:
         with:
           node-version: 12.18.4
       - name: hello
-        run: echo 'hello'
+        run: echo 'we deploy !'
 
 
 
