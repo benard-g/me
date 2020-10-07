@@ -2,6 +2,39 @@ name: CI_CD
 on: [push]
 
 jobs:
+  CI:
+    name: Automated tests
+    runs-on: ubuntu-latest
+    steps:
+      - name: Clone the repository
+        uses: actions/checkout@v1
+      - name: Use Node 12.x
+        uses: actions/setup-node@v1
+        with:
+          node-version: 12.18.4
+      - name: Install dependencies
+        run: yarn install
+      - name: Run automated tests
+        run: yarn test
+        env:
+          CI: true
+      - name: FAIL
+        run: 'false'
+  CD:
+    name: Deployment on GitHub Pages
+    runs-on: ubuntu-latest
+    steps:
+      - name: Clone the repository
+        uses: actions/checkout@v1
+      - name: Use Node 12.x
+        uses: actions/setup-node@v1
+        with:
+          node-version: 12.18.4
+      - name: hello
+        run: echo 'hello'
+
+
+
   # cccccc:
   #   name: 'Deploy to GitHub Pages'
   #   # needs: CI
@@ -26,32 +59,3 @@ jobs:
   #     #     BRANCH: live
   #     #     FOLDER: build
   #     #     CLEAN: true
-  CI:
-    name: 'Automated tests'
-    runs-on: ubuntu-latest
-    steps:
-      - name: Clone the repository
-        uses: actions/checkout@v1
-      - name: Use Node 12.x
-        uses: actions/setup-node@v1
-        with:
-          node-version: 12.18.4
-      - name: Install dependencies
-        run: yarn install
-      - name: Run automated tests
-        run: yarn test
-        env:
-          CI: true
-      - name: 'FAIL'
-        run: 'false'
-  CD:
-    name: 'Deployment on GitHub Pages'
-    steps:
-      - name: Clone the repository
-        uses: actions/checkout@v1
-      - name: Use Node 12.x
-        uses: actions/setup-node@v1
-        with:
-          node-version: 12.18.4
-      - name: hello
-        run: echo 'hello'
