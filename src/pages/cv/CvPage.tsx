@@ -50,6 +50,7 @@ const Page1: React.FC = () => {
               contract: t('cv.experience.kapten.contract'),
               dates: {
                 start: new Date('2020-03-16'),
+                end: new Date('2020-10-28'),
               },
               location: 'Paris, France',
               list: t('cv.experience.kapten.list'),
